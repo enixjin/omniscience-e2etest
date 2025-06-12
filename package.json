@@ -8,6 +8,6 @@
     "url": "https://github.com/DevExpress/testcafe/issues"
   },
   "devDependencies": {
-    "testcafe": "*"
+    "testcafe": "^3.7.2"
   }
 }

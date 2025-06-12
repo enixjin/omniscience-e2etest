@@ -1,6 +1,13 @@
 import { Selector } from 'testcafe';
 
-class Page {
+class IndexPage {
+    phoneInput: Selector;
+    savePhoneBtn: Selector;
+    phoneMessage: Selector;
+    userProfileCard: Selector;
+    recommendationCard: Selector;
+    virtualTryOnCard: Selector;
+    startConversationBtn: Selector;
     constructor() {
         // Elements related to phone input section
         this.phoneInput = Selector('#phoneInput');
@@ -17,4 +24,4 @@ class Page {
     }
 }
 
-export default new Page();
+export default new IndexPage();
