@@ -1,4 +1,4 @@
-import IndexPage from './index-page-model';
+import IndexPage from './pageModels/index-page-model';
 
 fixture `A set of examples that illustrate how to use TestCafe API`
     .page `http://127.0.0.1:3000/index.html`;
